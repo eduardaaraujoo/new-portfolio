@@ -1,0 +1,70 @@
+body, h1, h2, h3 {
+    margin: 0;
+}
+
+#nome-logo {
+    
+    font-family: "Press Start 2P", sans-serif;
+    color: #FFF;
+    text-shadow: 5px 5px 0px #000;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /*traz extremidade do elemento*/
+    align-items: center;
+    background-color: #7C5E99;
+    box-shadow: 0px 10px 1px 0px #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Fira Code;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:before {
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px; 
+    
+}
+
+#button {
+    display: inline-block;
+    background-color:#F25A70;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #1b1a1a;
+    margin-right: 0;
+    cursor: pointer;
+    border-radius: 14px;
+    transition: transform 100ms linear; /*o botão irá ter uma animação quando o mouse passar por ele e será de 100 milisegundos e de forma linear*/
+}
+/*o line-height tem que ser igual o valor do height p/ centralizar*/
+
+#button:hover {
+    transform: scale(1.07); /*p/ aumentar o botão ao passar o mouse*/
+}
