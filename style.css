@@ -9,11 +9,6 @@ body, h1, h2, h3 {
     text-shadow: 5px 5px 0px #000;
 }
 
-h2 {
-    font-size: 30px;
-    font-family: 'Press Start 2P', sans-serif;
-}
-
 header {
     display: flex;
     justify-content: space-between; /*traz extremidade do elemento*/
