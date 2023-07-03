@@ -1,0 +1,7 @@
+.banner {
+    background-image: url(../assets/Meu\ projeto.jpg);
+    height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #000;
+}
