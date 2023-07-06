@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color:#F25A70;
     padding-top: 18px;
@@ -15,6 +15,6 @@
 }
 
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.07); /*p/ aumentar o botão ao passar o mouse*/
 }
