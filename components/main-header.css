@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between; /*traz extremidade do elemento*/
     align-items: center;
@@ -10,7 +10,7 @@
     padding-bottom: 10px;
 }
 
-.header .name {
+.main-header .name {
     font-family: "Press Start 2P", sans-serif;
     color: #FFF;
     text-shadow: 5px 5px 0px #000;
