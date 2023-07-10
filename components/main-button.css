@@ -18,3 +18,8 @@
 .main-button:hover {
     transform: scale(1.07); /*p/ aumentar o botão ao passar o mouse*/
 }
+
+.main-button.-full {
+    width: 95%;
+    text-align: center;
+}
