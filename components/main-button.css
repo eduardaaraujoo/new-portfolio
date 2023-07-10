@@ -21,5 +21,8 @@
 
 .main-button.-full {
     width: 100%;
-    text-align: center;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
